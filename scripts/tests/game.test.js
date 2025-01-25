@@ -32,5 +32,8 @@ describe("game object contains correct keys", () => {
 });
 
 describe("newGame works correctly", () => {
-
+    beforeAll(() => {
+        game.score = 42;
+        newGame().
+    })
 });
